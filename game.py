@@ -46,6 +46,7 @@ def game(user_input, machine_input, start):
             print("You Win!", user_input, " beats ", machine_input)
             return True
         continue_game = False
+def play game()        
 
 # # decis is variable passed from unit tests to avoid input from keyboard # #
 def start_game(decis):
@@ -70,3 +71,6 @@ def start_game(decis):
 # #
 # class get():
 #     start_game(False)
+
+if __name__ == '__main__':
+    start_game(False)
